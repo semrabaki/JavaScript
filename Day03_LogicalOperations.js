@@ -15,3 +15,4 @@ console.log(!s3); //true//!null--true
 console.log(!s3);//true
 
 console.log(`compare: ${s2 && null}`); //"compare: null"
+

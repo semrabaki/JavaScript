@@ -1,0 +1,27 @@
+console.clear();
+var person={
+
+     firstName:'Omer',
+     lastName:'kiyici',
+     age:30,
+     isEmployeed:false
+
+};
+console.log(person.firstName);//omer
+
+person.firstName='Ali';
+console.log(person.firstName);//Ali
+
+person['lastName']='Avci';
+
+console.log(person.lastName);//Avci
+
+var dataToBeUpdated='age';
+person[dataToBeUpdated]=35;
+
+console.log(person);//[object Object] {
+                   //  age: 35,
+                    // firstName: "Ali",
+                    //isEmployeed: false,
+                    // lastName: "Avci"
+                     //}
