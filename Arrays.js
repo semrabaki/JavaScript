@@ -72,8 +72,11 @@ console.log(fruits);//["apple", "orange", false, 10]
 //  fruits.splice(1,0,"kiwi","peach"); //1. indexten itibaren element silmeden kiwi ve fruit i ekle
 // console.log(fruits);//["apple", "kiwi", "peach", "orange", false, 10]
 
-fruits.splice(2,2,"cherry", "strawberry","appricot");
-console.log(fruits);//["apple", "orange", "cherry", "strawberry", "appricot"]
+// fruits.splice(2,2,"cherry", "strawberry","appricot");
+// console.log(fruits);//["apple", "orange", "cherry", "strawberry", "appricot",10]
+
+fruits.splice(-1,1);//son indexten itibaren 1 tane sil
+console.log(fruits);//["apple", "orange", "banana", false]
 
 
 
